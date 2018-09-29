@@ -1,28 +1,83 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>Amantolli :: Museo Digital | Home  </title>
-			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-			<!-- Custom Theme files -->
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		</head>
-	<body>
-		<!-- header-section-starts -->
-		<div class = "full">
-			<div class="menu">
-				<!-- element list -->
-				<ul>
-					<li><a href="index.html"><i class="home"></i></a></li>
-					<li><a class="active" href="about.html"><div class="ab"><i class="info"></i></i></div></a></li>
-					<li><a href="gallery.html"><div class="gal"><i class="images"></i></i></div></a></li>
-					<li><a href="history.html"><div class="his"><i class="history"></i></i></div></a></li>
-					<li><a href="murals.html"><div class="mu"><i class="murals"></i></i></div></a></li>
-					<li><a href="activities.html"><div class="ac"><i class="acts"></i></div></a></li>
-					<li><a href="contact.html"><div class="con"><i class="contact"></i></div></a></li>
-					<li><a href="shop.html"><div class="sh"><i class="shop"></i></div></a></li>
-				</ul>
+<html lang ="en">
+<head>
+	<meta charset = "UTF-8">
+	<title> Amantolli :: Museo Digital | Info </title>
+	<meta name = "viewport" content = "width = device-width, user-scalable = no, 
+	 initial scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0">
+	<link rel = "stylesheet" href = "css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- <link rel = "stylesheet" href = "css/bootstrap-theme.min.css"> -->
+	
+</head>
+<body>
+
+<!--
+	Medidas				Dispositivos
+	============================================================
+	xs - Extra Small 	Telefonos y MENOS de 768px
+	sm - Small 			Tablets y MAS de 768px
+	md - Medium			Computadoras y MAS de 992px
+	lg - Large			Computadoras, Pantallas y MAS de 1200px
+-->
+
+
+	<div class = "container-fluid">
+		<header class = "row">
+			<div class = "encabezado col-xs-12">
+				<div class ="row">
+					<div class = "logo col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">
+						<a href="index.html"><img class = "img-responsive" src = "images/logo2.png" alt = ""></a>
+
+					</div>
+				</div>
 			</div>
+		</header>
+
+		<!-- Menu -->
+		<div class ="row">
+			<nav class = "navbar navbar-static-right col-sm-3 col-sm-offset-9">
+				<div class = "container">
+					<!-- Header del menú -->
+					<div class = "navbar-header">
+						<button type = "button" class = "navbar-toggle collapsed" data-toggle = "#navbar1">
+							<span class = "sr-only">Alternar Menu</span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+						</button>
+
+					</div>
+
+					<!-- Links del Menu -->
+					<div class = "collapse navbar-collapse col-sm-4 col-sm-offset-9" id = "navbar1">
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="index.html">Inicio<i class="home"></i></a></li>
+							<li class="active"><a href="about.html">Nosotros<i class="info"></i></a></li>
+							<li><a href="gallery.html">Galería<i class="images"></i></a></li>
+							<li><a href="history.html">Historia<i class="history"></i></a></li>
+							<li><a href="murals.html">Murales<i class="murals"></i></a></li>
+							<li><a href="activities.html">Actividades<i class="acts"></i></a></li>
+							<li><a href="contact.html">Contacto<i class="contact"></i></a></li>
+							<li><a href="shop.html">Tienda<i class="shop"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
-	</body>
+	</div>
+		<section class = "main row">
+			
+		</section>
+		
+		<footer class = "row">
+			<div class = "col-md-12">
+				<h4> Footer </h4>
+			</div>
+		</footer> 
+	
+	
+	<script src =  "js/jquery.js"> </script>
+	<script src =  "js/bootstrap.min.js"> </script>
+</body>
 </html>

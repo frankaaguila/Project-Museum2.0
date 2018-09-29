@@ -5,6 +5,37 @@
     url('../fonts/HelveticaNeueLTStd-Lt.otf'), url('../fonts/HelveticaNeueLTStd-Th.otf');
 }
 
+body {
+	font-family: 'Helvetica Neue';
+}
+
+.pie
+{
+	background: #430098;
+	color: #fff;
+}
+
+nav.navbar ul.nav  li {
+	font-family: "Helvetica Neue", sans-serif;
+    background-color: #430098;
+    
+}
+nav.navbar ul.nav  li a{
+	padding:12px 22px;
+	  display: block;
+	  color: #fff;
+}
+nav.navbarul li.nav  a.active {
+	background:#321d49;
+}
+nav.navbar ul.nav  li a:hover {
+	background: #b8b0c1;
+}
+nav.navbar ul.nav li {
+    
+}
+ 
+
 .encabezado {
 	background: url('../images/main-title3.png') no-repeat 0px 0px;
 	border-top: 10px solid #ffffff;
@@ -18,7 +49,4 @@
 	margin-bottom: 20px; 
 }
 
-aside{
-	background: #FF5F49;
-	margin-bottom: 20px; 
-}
+
