@@ -9,12 +9,6 @@ body {
 	font-family: 'Helvetica Neue';
 }
 
-.pie
-{
-	background: #430098;
-	color: #fff;
-}
-
 nav.navbar ul.nav  li {
 	font-family: "Helvetica Neue", sans-serif;
     background-color: #430098;
@@ -35,13 +29,46 @@ nav.navbar ul.nav li {
     
 }
  
-
 .encabezado {
-	background: url('../images/main-title3.png') no-repeat 0px 0px;
+	background: url('../images/main-title.png') no-repeat 0px 0px;
 	border-top: 10px solid #ffffff;
 	color: #fff;
 	margin-bottom: 20px; 
 
+}
+
+.encabezadoIndex {
+	background: url('../images/main-title.png') no-repeat 0px 0px;
+	border-top: 10px solid #ffffff;
+	color: #fff;
+	margin-bottom: 20px; 
+
+}
+
+.encabezadoHistory {
+	background: url('../images/history-title.png') no-repeat 0px 0px;
+	border-top: 10px solid #ffffff;
+	color: #fff;
+	margin-bottom: 20px; 
+
+}
+
+.pie
+{
+	background: #430098;
+	color: #fff;
+}
+
+.pieIndex
+{
+	background: #430098;
+	color: #fff;
+}
+
+.pieHistory
+{
+	background: #e27398;
+	color: #fff;
 }
 
 .main{
