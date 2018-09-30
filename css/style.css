@@ -53,6 +53,14 @@ nav.navbar ul.nav li {
 
 }
 
+.encabezadoShop {
+	background: url('../images/shop-title.png') no-repeat 0px 0px;
+	border-top: 10px solid #ffffff;
+	color: #fff;
+	margin-bottom: 20px; 
+
+}
+
 .pie
 {
 	background: #430098;
@@ -68,6 +76,12 @@ nav.navbar ul.nav li {
 .pieHistory
 {
 	background: #e27398;
+	color: #fff;
+}
+
+.pieShop
+{
+	background: #d62a63;
 	color: #fff;
 }
 
