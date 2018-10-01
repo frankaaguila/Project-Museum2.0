@@ -29,6 +29,9 @@ nav.navbar ul.nav li {
     
 }
  
+h4 {
+	color: #3b69dd;
+}
 .encabezado {
 	background: url('../images/main-title.png') no-repeat 0px 0px;
 	border-top: 10px solid #ffffff;
@@ -71,6 +74,7 @@ nav.navbar ul.nav li {
 {
 	background: #430098;
 	color: #fff;
+
 }
 
 .pieHistory
@@ -90,4 +94,26 @@ nav.navbar ul.nav li {
 	margin-bottom: 20px; 
 }
 
+.facebook{
+	padding: 20px;
+}
 
+.instagram{
+	padding: 20px;
+}
+
+.twitter{
+	padding: 20px;
+}
+
+.youtube{
+	padding: 20px;
+}
+
+.pinterest{
+	padding: 20px;
+}
+
+.gplus{
+	padding: 20px;
+}
