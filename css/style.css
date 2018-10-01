@@ -9,6 +9,11 @@ body {
 	font-family: 'Helvetica Neue';
 }
 
+nav.navbar{
+	background: #fff;
+	 border: 1px solid #fff;
+}
+
 nav.navbar ul.nav  li {
 	font-family: "Helvetica Neue", sans-serif;
     background-color: #430098;
@@ -45,6 +50,7 @@ h4 {
 	border-top: 10px solid #ffffff;
 	color: #fff;
 	margin-bottom: 20px; 
+	width: 100%;
 
 }
 
